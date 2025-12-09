@@ -7,7 +7,7 @@
 
 ---
 ## Abstract
-Our study validates SLMs as a robust solution for automated fact-checking. We conducted extensive experiments on both long-form (WELFake) and short-text (LIAR) datasets. The results highlight the critical role of structural adaptation (adapters) in handling noisy, context-sparse data compared to traditional Full Fine-Tuning or LoRA.
+To address the trade-off between accuracy and computational cost in fake news detection, this study investigates the potential of Small Language Models (SLMs). By employing an adaptive fine-tuning pipeline on DistilBERT, MiniLM, and ALBERT architectures, we benchmark the efficacy of Full Fine-Tuning against PEFT techniques such as LoRA and Adapters. Our research demonstrates that SLMs not only achieve accuracy comparable to large models on standard benchmarks ($F_1 > 99\%$ on WELFake) but also offer superior inference speed with MiniLM. Notably, we identify a "model collapse" phenomenon on the short-text LIAR dataset and demonstrate that Bottleneck Adapters are the sole strategy capable of maintaining stability ($F_1 \approx 68\%$), significantly outperforming LoRA and Prompt Tuning. These findings validate that SLMs, when paired with appropriate fine-tuning strategies, serve as an optimal alternative to
 
 ## Citation
 If you use this code or our results in your research, please cite our paper:
