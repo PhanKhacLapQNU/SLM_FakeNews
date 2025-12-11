@@ -16,6 +16,5 @@ If you use this code or our results in your research, please cite our paper:
 @article{phan2025approach,
   title={An Approach Based on Fine-tuning Small Language Models for Fake News Detection},
   author={Phan, Khac-Lap and Pham, Quang-Vinh and Le, Quang-Hung},
-  journal={Dept. of Information Technology, Quy Nhon University},
   year={2025}
 }
